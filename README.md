@@ -32,6 +32,10 @@
  - Build Seconadary Component.
  - Build Movie List
  - Build movie card. 
+ - TMDB Image CDN URL
+ - Made the browse page with amazing Tailwind CSS
+ - usePopularMovies Custom hook.
+ 
 
 # Features
 - Login/Sign Up 
