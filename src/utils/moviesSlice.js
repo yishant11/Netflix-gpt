@@ -1,5 +1,6 @@
 
 import { createSlice } from "@reduxjs/toolkit";
+import PopularMovies from "../hooks/usePopularMovies";
 
 const moviesSlice = createSlice({
     name:"movies",
@@ -11,12 +12,21 @@ const moviesSlice = createSlice({
         addNowPlayingMovies :(state,action) =>{
             state.nowPlayingMovies=action.payload;
         },
+        addPopularMovies:(state,action) =>{
+            state.popularMovies=action.payload;
+        },
+        addHorrorMovies:(state,action) =>{
+            state.horrorMovies=action.payload;
+        },
+        addUpcomingMovies:(state,action) =>{
+            state.upcomingMovies=action.payload;
+        },
         addTrailerVideo :(state,action) => {
             state.trailerVideo =action.payload;
         },
     },
 });
 
-export const{addNowPlayingMovies,addTrailerVideo} = moviesSlice.actions;
+export const{addNowPlayingMovies,addTrailerVideo,addPopularMovies,addHorrorMovies,addUpcomingMovies} = moviesSlice.actions;
 
 export default moviesSlice.reducer;
