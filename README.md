@@ -29,6 +29,9 @@
  - Update store with Trailer Video Data.
  - Embedded the Youtube Video and make it autoplay and mute.
  - Tailwind Clasess to main container awesome.
+ - Build Seconadary Component.
+ - Build Movie List
+ - Build movie card. 
 
 # Features
 - Login/Sign Up 
